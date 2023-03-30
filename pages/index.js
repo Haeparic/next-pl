@@ -22,7 +22,7 @@ export default function Home() {
               버리었습니다.
             </p>
             <div className="flex justify-center">
-              <Link href="/portfolio">
+              <Link legacyBehavior href="/portfolio">
                 <button className="btn-project-index">Portfolio</button>
               </Link>
             </div>
